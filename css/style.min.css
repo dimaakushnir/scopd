@@ -160,6 +160,10 @@ body.lock {
   }
 }
 
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .btn {
   height: 48px;
   border-radius: 30px;
@@ -175,6 +179,7 @@ body.lock {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   white-space: nowrap;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media (max-width: 479.98px) {
   .btn {
@@ -243,6 +248,7 @@ body.lock {
   line-height: 150%;
   color: #101010;
   position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media (max-width: 479.98px) {
   .btn-more {
@@ -309,8 +315,12 @@ body.lock {
   -ms-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.logo {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 .logo img {
   width: 95px;
   height: 27px;
@@ -580,6 +590,7 @@ body.lock {
   -ms-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .navigation-btn:hover {
   border: 1px solid #FDEE68;
@@ -922,6 +933,7 @@ body.lock {
     width: 30px;
     margin: 0 0 0 25px;
     background: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   .header__burger span {
     position: absolute;
@@ -2071,10 +2083,12 @@ body.lock {
 }
 
 .item-values {
+  text-align: left;
   padding: 32px;
   height: 330px;
   cursor: pointer;
   flex: 0 1 200px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
 .item-values.active {
@@ -2097,6 +2111,22 @@ body.lock {
     height: auto;
     margin: 16px 0 0 0;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  }
+}
+@media (max-width: 767.98px) {
+  .item-values {
+    padding: 22px;
+  }
+  .item-values.active .item-values__text {
+    margin: 14px 0 0 0;
+  }
+}
+@media (max-width: 479.98px) {
+  .item-values {
+    padding: 20px;
+  }
+  .item-values.active .item-values__text {
+    margin: 12px 0 0 0;
   }
 }
 .item-values__text {
@@ -3986,6 +4016,7 @@ body.lock {
   align-items: center;
   padding: 26.5px 0;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media (max-width: 1362px) {
   .top-item-question {
