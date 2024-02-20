@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header header_black">
+            <div class="header__main">
+                <div class="header__container container">
+                    <div class="header__row">
+                        <a href="index.html" class="header__logo logo">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                        <nav class="header__menu menu" data-da="mobile-header__body, 0, 992">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="about.html" class="menu__link">About us</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="solution.html" class="menu__link">Solutions</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="pricing.html" class="menu__link">Pricing</a>
+                                </li>
+                                <li class="menu__item active">
+                                    <a href="blog.html" class="menu__link">Blog</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="" class="menu__link">Live Demo</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="support.html" class="menu__link">Support</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="contact.html" class="menu__link">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="" class="header__get-btn btn btn_small"><span>Get Scord</span></a>
+                        <button class="header__burger">
+                            <span></span><span></span><span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile mobile-header">
+                <div class="mobile-header__inner">
+                    <div class="mobile-header__container container">
+                        <div class="mobile-header__body"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main blog">
+            <section class="blog__main main-blog">
+                <div class="main-blog__container container">
+                    <div class="main-blog__body">
+                        <div class="main-blog__top">
+                            <h3 class="main-blog__title title-h3 underline underline_yellow">Blog</h3>
+                            <div class="main-blog__nav-filter nav-filter">
+                                <div class="nav-filter__items">
+                                    <a href="" class="nav-filter__item active" data-filter="all">View all</a>
+                                    <a href="" class="nav-filter__item" data-filter="one">Category one</a>
+                                    <a href="" class="nav-filter__item" data-filter="two">Category two</a>
+                                    <a href="" class="nav-filter__item" data-filter="three">Category three</a>
+                                    <a href="" class="nav-filter__item" data-filter="four">Category four</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-blog__items">
+                            <div class="main-blog__column" data-filter="one">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category one</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="two">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category two</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/02.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="three">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category three</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="one">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category one</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="two">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category two</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/02.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="three">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category three</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="one">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category one</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="two">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category two</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/02.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="three">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category three</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="four">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category four</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="two">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category two</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/02.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-blog__column" data-filter="four">
+                                <div class="main-blog__item item-blog">
+                                    <div class="item-blog__content">
+                                        <div class="item-blog__top">
+                                            <div class="item-blog__category">Category four</div>
+                                            <a href="" class="item-blog__title-link">
+                                                <h5 class="item-blog__title title-h5">
+                                                    Blog title heading here
+                                                </h5>
+                                            </a>
+                                            <div class="item-blog__text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                varius enim
+                                            </div>
+                                        </div>
+                                        <div class="item-blog__image">
+                                            <a href="">
+                                                <img src="img/blog/01.png" alt="blog-img">
+                                            </a>
+                                        </div>
+                                        <a href="" class="item-blog__btn-more btn-more">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-blog__pagination pagination-main-blog">
+                            <span class="pagination-main-blog__page-numbers current">1</span>
+                            <a href="" class="pagination-main-blog__page-numbers">2</a>
+                            <a href="" class="pagination-main-blog__page-numbers">3</a>
+                            <span class="pagination-main-blog__page-numbers dots">...</span>
+                            <a href="" class="pagination-main-blog__page-numbers">4</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="blog__subscribe subscribe">
+                <div class="subscribe__container container">
+                    <div class="subscribe__body">
+                        <div class="subscribe__content">
+                            <h2 class="subscribe__title title-h2">
+                                Subscribe to our <span>newsletter</span>
+                            </h2>
+                            <div class="subscribe__subtitle subtitle">
+                                <p>
+                                    Stay updated with the latest news, updates, and exclusive offers by subscribing to
+                                    our newsletter!
+                                </p>
+                            </div>
+                            <form action="#" class="subscribe__form form-subscribe">
+                                <div class="form-subscribe__item">
+                                    <input placeholder="Enter your email" autocomplete='off' type='email' name='form[]'
+                                        class='form-subscribe__input'>
+                                </div>
+                                <button type='submit' class='form-subscribe__btn btn btn_dark'>Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__row">
+            <a href="index.html" class="footer__logo logo">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+            <nav class="footer__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="about.html" class="menu__link">About us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="solution.html" class="menu__link">Solutions</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="pricing.html" class="menu__link">Pricing</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="blog.html" class="menu__link">Blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Live Demo</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="support.html" class="menu__link">Support</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="contact.html" class="menu__link">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__socials socials">
+                <ul class="socials__items">
+                    <li class="socials__item">
+                        <a href="" class="socials__link">
+                            <img src="img/icons/socials/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="" class="socials__link">
+                            <img src="img/icons/socials/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="" class="socials__link">
+                            <img src="img/icons/socials/x.svg" alt="x">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="" class="socials__link">
+                            <img src="img/icons/socials/linkedin.svg" alt="linkedin">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="" class="socials__link">
+                            <img src="img/icons/socials/youtube.svg" alt="youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright copyright">
+            <div class="copyright__text">2023. All right reserved.</div>
+            <div class="copyright__links links-copyright">
+                <ul class="links-copyright__items">
+                    <li class="links-copyright__item">
+                        <a href="" class="links-copyright__link">Privacy Policy</a>
+                    </li>
+                    <li class="links-copyright__item">
+                        <a href="" class="links-copyright__link">Terms of Service</a>
+                    </li>
+                    <li class="links-copyright__item">
+                        <a href="" class="links-copyright__link">Cookies Settings</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/app.min.js"></script>
+</body>
+
+</html>
