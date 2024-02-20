@@ -860,12 +860,6 @@ a {
     padding: 0 0 49% 0;
   }
 }
-@media (max-width: 991.98px) {
-  .lightbox {
-    width: 90% !important;
-    padding: 0 0 55% 0;
-  }
-}
 
 .lightboxOverlay {
   overflow: hidden;
@@ -1074,11 +1068,7 @@ a {
     left: 95px !important;
   }
   .lb-next::before {
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -webkit-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
+    transform: rotate(180deg) scale(0.9);
   }
 }
 @media (max-width: 479.98px) {
@@ -1088,11 +1078,7 @@ a {
     left: 76px !important;
   }
   .lb-next::before {
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -webkit-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    transform: scale(0.8);
+    transform: rotate(180deg) scale(0.8);
   }
 }
 
