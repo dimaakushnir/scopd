@@ -861,6 +861,13 @@ a {
     transform: translate(-50%, 50%);
   }
 }
+@media (max-width: 479.98px) {
+  .lightbox {
+    width: 90% !important;
+    padding: 0 0 55% 0;
+    transform: translate(-50%, 50%);
+  }
+}
 
 .lightboxOverlay {
   overflow: hidden;
